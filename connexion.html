@@ -16,14 +16,17 @@
   ul{
     display: flex;
     color: white;
-    margin-top: 25px;
+    margin-top: 0px;
     justify-content: space-between;
     text-decoration: none;
     list-style: none;
+    padding-right: 85%;
+    margin-left: 75%;
 }
   nav{
     background-color: green;
     height: 60px;
+
   }
   .menu{
     padding: 0%;
@@ -46,6 +49,31 @@ a{
     margin-right: 100px;
 
 }
+table{
+    background-color: gray;
+    height: 200px;
+    width: 400px;
+    border-radius: 5px;
+
+}
+form{
+    margin: 50px;
+    background-color: #2596be;
+    height: 200px;
+    width: 400px;
+    border-radius: 5px;
+    margin-left: 35%;
+    margin-bottom: -75%;
+}
+button{
+    width: 200px;
+    height: 60px;
+    margin-left: 7%;
+    background-color: green;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+}
 footer{
     height: 80px;
     margin-top: auto;
@@ -54,18 +82,41 @@ footer{
     background-color: green;
     text-align: center;
 }
+td{
+    text-align: center;
+    margin-top: 100%;
+}
+.propos{
+    padding: 15PX;
+}
+a:hover{
+    background-color: #308337;
+ 
+}
 </style>
 </head>
 <body>
     <header>
-        <nav class="menu">
+        <nav>
                 <img src="part2.jpg" alt="">
                 <ul>
-                    <li><a href="#">à propos</a></li>
+                    <li><a href="#">connexion</a></li>
+                    <li><a href="inscription.html">inscrpition</a></li>
                 </ul>
-        </nav>
     </header>
-    <h1>Je suis </h1>
+    <form action="">
+        <table>
+            <div>
+            <tr>
+                <td>EMAIL</td><td><input type="text" name="mail" value=""></td>
+            </tr>
+            <tr>
+                <td>MOTS DE PASSE</td><td><input type="password" name="passe" value=""></td>
+            </tr>
+            <button>connexion</button>
+        </div>
+        </table>
+    </form>
 <footer>
     <p class="my-3 mx-5">2023 Copyright</p>
 </footer>
