@@ -5,6 +5,8 @@ body {
 }
 
 main {
+    margin-top: 10px;
+    margin-bottom: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,3 +62,18 @@ input:focus,
     border-color: #64b5f6;
 }
 
+
+.form-style select {
+    /* Add select here for consistent styling */
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+.form-style select {
+    font-style: italic;
+}

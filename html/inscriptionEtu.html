@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Inscription Etudiant</title>
     <link rel="stylesheet" href="../css/nav.css">
     <link rel="stylesheet" href="../css/inscriptionAdmin.css">
 </head>
 <body>
     <nav>
         <ul>
-          <li class="left"><a href="#">Gestion <span style="color: blue; font-weight: bold;">Administrateur</span></a></li>
+          <li class="left"><a href="#">Gestion <span style="color: blue; font-weight: bold;">Etudiant</span></a></li>
           <li class="right"><a href="#"><span style="text-decoration-color: blue; text-decoration-line: underline;">S'inscrire</span></a></li>
-          <li class="right"><a href="./connexionAdmin.html">Se connecter</a></li>
+          <li class="right"><a href="./connexionEtudiant.html">Se connecter</a></li>
           <li class="right"><a href="../index.html">Acceuil</a></li>
         </ul>
     </nav>
@@ -24,13 +24,21 @@
             <label for="prenom">Prénom</label>
             <input type="text" name="prenom" value="" id="prenom" >
             <label for="email">Email</label>
-            <input type="text" name="email" value="" id="email">
+            <input type="email" name="email" value="" id="email">
+            <label for="matricule">Matricule</label>
+            <input type="matricule" name="matricule" value="" id="matricule">
+            <label for="classe">Classe</label>
+            <select name="classe" id="classe" required>
+                <option value="">Sélectionner une classe</option>
+                <option value="twin">TWIN 2</option>
+                <option value="sigl">SIGL 2</option>
+                <option value="srit">SRIT 2</option>
+            </select>
+            
             <label for="mp">Code Secret</label>
             <input type="tel" name="mp" value="" id="mp">
-            <input type="submit" value="Je m'inscris" name="submit">
+            <input type="submit" value="Je m'inscris !" name="submit">
         </form>
     </main>
-
-    
 </body>
 </html>
