@@ -1,0 +1,23 @@
+/* Appliquer un joli fond, centrer et définir une taille */
+main {
+    width: 60%; /* Largeur définie pour main */
+    margin: 50px auto; /* Centrer par rapport au body avec auto pour les marges gauche et droite */
+    padding: 20px; /* Ajout de padding pour un espace intérieur */
+    background-color: #f9f9f9; /* Couleur de fond agréable */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Légère ombre pour un effet de profondeur */
+    border-radius: 8px; /* Coins arrondis pour un joli effet */
+    text-align: center; /* Centrer le texte à l'intérieur de main */
+    font-size: 30px; /* Taille de police bien visible */
+    font-family: 'Arial', sans-serif; /* Police standard de fallback */
+    font-family: 'Open Sans', sans-serif; /* Police non standard, remplacez par celle de votre choix */
+}
+
+/* Inclure une police non standard */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif; /* Appliquer la même police au body */
+    background-color: #e0e0e0; /* Couleur de fond du body pour un joli contraste */
+    margin: 0;
+    padding: 0;
+}
