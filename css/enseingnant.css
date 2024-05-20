@@ -10,15 +10,27 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.btn
-
 table {
-    width: 80%;
+    width: 42%;
     border-collapse: collapse;
     margin: 25px auto;
     font-size: 18px;
     text-align: left;
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    float: left;
+    margin: 5%;
+}
+
+.note {
+    margin-top: 10px;
+    display: block;
+    margin-top: 10px;
+}
+
+.btn {
+    margin-top: 10px;
+/*     display: block;
+ */    margin-top: 75px;
 }
 
 thead tr {
@@ -31,6 +43,7 @@ thead tr {
 th, td {
     padding: 12px 15px;
     border: 1px solid #dddddd;
+    text-align: center;
 }
 
 tbody tr {
