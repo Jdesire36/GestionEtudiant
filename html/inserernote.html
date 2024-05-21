@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="../css/dashboardAdmin.css">
+</head>
+<body>
+    <nav>
+        <ul>
+          <li class="left"><a href="#">Gestion <span style="color: blue; font-weight: bold;">Enseignant</span></a></li>
+          <li class="right"><a href="#">Log out</a></li>
+          <li class="right"><a href="#"><i class='bx bxs-user'></i></a></li>
+        </ul>
+    </nav>
+    <form action="votre_script_de_traitement.php" method="POST">
+        <table>
+            <thead>
+                <tr>
+                    <th>N°</th>
+                    <th>Matière</th>
+                    <th>Note</th>
+                    <th>Valider</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>YOBOUA Josué</td>
+                    <td><input type="number" name="Note" value="3"></td>
+                    <td><button type="submit">OK!</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
