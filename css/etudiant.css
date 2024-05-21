@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* general */
+p {
+    font-size: 30px;
+    margin: 20px 0;
+    text-align: center;
+}
+.resume {
+    text-align: center;
+    margin: auto;
+    background-color: aliceblue;
+    width: 550px;
+    height: 200px;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+h3 {
+    font-weight: 20px;
+}
